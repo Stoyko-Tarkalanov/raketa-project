@@ -1,0 +1,31 @@
+.toast {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  max-width: 100%;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  z-index: 999;
+}
+
+.toast-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.toast-body {
+  margin-top: 8px;
+}
+
+.btn-close {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
